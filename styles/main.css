@@ -19,7 +19,7 @@ color: maroon;
 text-indent: 30px;
 }
 
-h2 {
+main h2 {
     font-size: 130%;
     color: #800000;
     text-indent: 30px;
@@ -29,7 +29,7 @@ img{
     float: left;
 }
 
-h2 ::shadow{
+main p.shadow{
     text-shadow: 2px 2px 2px rgb(128, 0, 0)
 }
 
