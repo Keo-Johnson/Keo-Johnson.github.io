@@ -13,13 +13,13 @@ a:visited {
     color: orange;
 }
 
-main h1 {
+h1 {
 font-size: 175%;
 color: maroon;
 text-indent: 30px;
 }
 
-main h2 {
+h2 {
     font-size: 130%;
     color: #800000;
     text-indent: 30px;
