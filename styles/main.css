@@ -8,6 +8,11 @@ a:focus {
     font-style: italic;
     color: orange;
 }
+
+a:hover{
+    font-style: italic;
+    color: orange;
+}
 a:visited {
     font-style: italic;
     color: orange;
