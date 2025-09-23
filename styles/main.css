@@ -11,6 +11,10 @@ body {
     border: 1px solid purple;
     border-radius: 25px;
     box-shadow: 5px 5px 0px 0px;
+    background-image: url("../images/headshot.jpeg");
+    background-position: right;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
 }
 
 a:focus {
