@@ -7,14 +7,15 @@ body {
     width: 90%;
     background-color: whitesmoke;
     margin: 15px auto;
-    padding: 15px;
+    padding: 1.5em;
     border: 1px solid purple;
     border-radius: 25px;
     box-shadow: 5px 5px 0px 0px;
-   /* background-image: url("../images/headshot.jpeg");
-    background-position: left;
-    background-repeat:no-repeat;
-    background-attachment: fixed; */
+    
+}
+header{
+    padding-bottom: 25px;
+    border-bottom: 2px solid maroon;
 }
 img {
     float: left;
@@ -62,7 +63,7 @@ column-rule: 2px dotted maroon;
 column-gap: 2em;
 margin-left: 2em;
 }
-article h3{
+article h3 {
     column-span: all;
 }
 article img{
@@ -85,11 +86,16 @@ aside{
 footer{
     clear: both;
     border-top: 2px solid maroon;
-
+    text-align: center;
 }
-p .fixed{
-width: auto;
-position: fixed;
+.fixed{
+    width: auto;
+	position: fixed;
+	bottom: 35%;
+	right: 0;
+	border: 3px solid purple;
+	background-color: blueviolet;
+	padding: 1.5em;
 }
 h3 img{
     float: left;
