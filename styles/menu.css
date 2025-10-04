@@ -1,15 +1,28 @@
 nav {
-    background-color: purple;
+    background-color: white;
 }
 ul{
     display: flex;
     list-style-type: none;
     flex-direction: row;
 }
-li {
-    padding: .5em 1em;
-}
-a{
+
+#nav_menu a{
     text-decoration: none;
     color: aliceblue;
+}
+#nav_menu ul{
+padding: .5em 1em;
+
+}
+#nav_menu li{
+padding: .5em 1em;
+background-color: blue;
+}
+aside ol{
+    list-style-type: upper-roman;
+}
+aside ul{
+    list-style-type: square;
+    flex-direction: column;
 }
