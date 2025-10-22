@@ -19,8 +19,7 @@ padding: .5em 1em;
 padding: 1em 3.5em;
 background-color: blue;
 border-color: aliceblue;
-margin-right: .1em;
-
+margin: .1em;
 }
 aside ol{
     list-style-type: upper-roman;
