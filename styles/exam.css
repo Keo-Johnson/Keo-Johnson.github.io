@@ -28,7 +28,6 @@ h1{
 h2 {
     font-size: 1.6em;
     color: blue;
-    text-indent: 30px;
     text-align: left;
     
 }
@@ -50,6 +49,7 @@ ul{
 header {
     border-bottom: 3px solid blue;
     margin-bottom: 1em;
+    margin-top: 2em;
 }
 
 body {
@@ -59,13 +59,14 @@ body {
     /* border-radius: 25px; */
     /* box-shadow: 5px 5px 0px 0px;  */
     box-shadow: initial;
-    background-image: url("../images/headshot.jpeg");
+    background-image: url("../images/headshot.jpeg"); 
     background-position: right;
     background-repeat: repeat-y;
     background-attachment: fixed;
     border-radius: 25px;
     box-shadow: 5px 5px 0px 0px;
-    
+    background-color: white;
+    padding: 18px;
 }
 
 aside{
@@ -95,4 +96,7 @@ footer{
     clear: both;
     border-top: 3px solid blue;
     text-align: center;
+}
+html{
+    background-image: linear-gradient(to left, white 0%, rgb(9, 124, 139));
 }
