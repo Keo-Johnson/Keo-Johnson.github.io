@@ -6,7 +6,7 @@ p::first-letter{
 
 article {
 clear: left;
-width: 70%;
+width: 75%;
 float: left;
 column-count: 3;
 column-rule: 2px dashed blue;
@@ -23,17 +23,19 @@ article img{
 h1{
     color: blue;
     font-size: 2em;
+    
 }
 h2 {
     font-size: 1.6em;
     color: blue;
     text-indent: 30px;
+    text-align: left;
     
 }
 #nav_menu li{
-padding: 1em 3.5em;
-background-color: blue;
-margin: .1em;
+    padding: 1em 3.5em;
+    background-color: blue;
+    margin: .1em;
 }
 #nav_menu a{
     text-decoration: none;
@@ -51,5 +53,35 @@ header {
 }
 
 body{
+    border-radius: 25px;
+    width: 95%;
+    margin: 15px auto;
+    /*border: 1px solid purple; */
+    /* border-radius: 25px; */
+    box-shadow: 5px 5px 0px 0px; 
+    background-image: url("../images/headshot.jpeg");
+    background-position: right;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+}
 
+aside{
+    width: 20%; /* Exam Instructions*/
+    position:fixed; /* Exam Instructions*/
+    
+    background-color:steelblue;
+    padding: 1em 1.5em;
+    margin: 1em 0 1em 1.5em;
+    position: absolute;
+    right: 0;
+    margin-top: 5em;
+    border: 3px solid blue;
+}
+
+aside ol {
+    list-style-type: upper-roman;
+}
+aside ul{
+    list-style-type: square;
+    flex-direction: column;
 }
